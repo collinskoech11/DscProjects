@@ -6,12 +6,14 @@ import Home from './pages/Home';
 
 function App() {
   return (
+    <>
     <Router>
-    <div>
      <Navbar/>
      <Route exact path="/" component={Home}/>
-    </div>
     </Router>
+   <Home/>
+    </>
+
   );
 }
 
