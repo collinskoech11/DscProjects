@@ -31,19 +31,30 @@ render() {
             <MDBNavItem href="/AboutPage">
             <Nav.Link href="/AboutPage">About Us</Nav.Link>
             </MDBNavItem>
+
             <MDBNavItem>
-            <Nav.Link href="#">Contact Us</Nav.Link>
-            </MDBNavItem>
+            <MDBDropdown>
+              <MDBDropdownToggle nav caret>
+                <span className="mr-2">Help</span>
+              </MDBDropdownToggle>
+              <MDBDropdownMenu>
+                <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
+                <MDBDropdownItem href="/MensWear">FAQs</MDBDropdownItem>
+                
+              </MDBDropdownMenu>
+            </MDBDropdown>
+          </MDBNavItem>
+
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
                   <span className="mr-2">Store</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem href="#!">Womens Wear</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Mens Wear</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Watches</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Shoes</MDBDropdownItem>
+                  <MDBDropdownItem href="/WomensWear">Women's Wear</MDBDropdownItem>
+                  <MDBDropdownItem href="/MensWear">Men's Wear</MDBDropdownItem>
+                  <MDBDropdownItem href="Watches">Watches</MDBDropdownItem>
+                  <MDBDropdownItem href="Shoes">Shoes</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
