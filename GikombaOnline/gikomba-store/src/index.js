@@ -12,7 +12,7 @@ import'bootstrap-css-only/css/bootstrap.min.css';
 import'mdbreact/dist/css/mdb.css';
 
 
->>>>>>> acdf272717aa4b63cc8e413e2be4c7bf2c222a99
+>>>>>>> 2483d35cd0494144229afe1dbb84da953f8fb3d1
 
 ReactDOM.render(
   <React.StrictMode>

@@ -4,7 +4,7 @@ import './App.css';
 =======
 import './css/products/WomensWear.css';
 import './css/Screens/ProductScreen.css';
->>>>>>> acdf272717aa4b63cc8e413e2be4c7bf2c222a99
+>>>>>>> 2483d35cd0494144229afe1dbb84da953f8fb3d1
 import Navbar from './Navigators/Navbar';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './pages/Home';
@@ -42,7 +42,7 @@ function App() {
     <CustomFooter/>
     </Router>
     
->>>>>>> acdf272717aa4b63cc8e413e2be4c7bf2c222a99
+>>>>>>> 2483d35cd0494144229afe1dbb84da953f8fb3d1
   );
 }
 
